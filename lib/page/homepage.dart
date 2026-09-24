@@ -146,7 +146,6 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
                 onPressed: () {
-                  // Mengirimkan data buku spesifik ke DetailPage
                   Navigator.push(
                     context,
                     MaterialPageRoute(

@@ -29,7 +29,6 @@ class SuccessPage extends StatelessWidget {
           children: [
             const SizedBox(height: 10),
 
-            // Tumpukan Buku dengan Ikon Centang Sukses
             SizedBox(
               width: 180,
               height: 140,

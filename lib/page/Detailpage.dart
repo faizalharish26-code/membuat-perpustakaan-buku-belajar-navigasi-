@@ -40,7 +40,6 @@ class DetailPage extends StatelessWidget {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            // Sampul Buku Besar Menyesuaikan Buku Yang Dipilih
             ClipRRect(
               borderRadius: BorderRadius.circular(8),
               child: Image.asset(
@@ -66,14 +65,12 @@ class DetailPage extends StatelessWidget {
             ),
             const SizedBox(height: 16),
 
-            // Detail Informasi Dinamis
             _buildInfoRow(Icons.person, 'Penulis', author),
             _buildInfoRow(Icons.calendar_today, 'Tahun Terbit', year),
             _buildInfoRow(Icons.book, 'Kategori', category),
             _buildInfoRow(Icons.list_alt, 'Deskripsi', description),
             const SizedBox(height: 20),
 
-            // Banner Ketersediaan
             Container(
               width: double.infinity,
               padding: const EdgeInsets.symmetric(vertical: 12),
