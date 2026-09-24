@@ -25,7 +25,6 @@ class HomePage extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
-          // Buku 1: Pemrograman Flutter
           _buildBookCard(
             context: context,
             title: 'Pemrograman Flutter',
@@ -38,7 +37,6 @@ class HomePage extends StatelessWidget {
           ),
           const SizedBox(height: 12),
 
-          // Buku 2: Dasar Dart
           _buildBookCard(
             context: context,
             title: 'Dasar Dart',
@@ -51,7 +49,6 @@ class HomePage extends StatelessWidget {
           ),
           const SizedBox(height: 12),
 
-          // Buku 3: Desain UI/UX
           _buildBookCard(
             context: context,
             title: 'Desain UI/UX',

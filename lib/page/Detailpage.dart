@@ -89,7 +89,6 @@ class DetailPage extends StatelessWidget {
             ),
             const SizedBox(height: 16),
 
-            // Tombol Pinjam Buku
             SizedBox(
               width: double.infinity,
               child: ElevatedButton.icon(
@@ -119,7 +118,6 @@ class DetailPage extends StatelessWidget {
             ),
             const SizedBox(height: 10),
 
-            // Tombol Kembali
             SizedBox(
               width: double.infinity,
               child: OutlinedButton(

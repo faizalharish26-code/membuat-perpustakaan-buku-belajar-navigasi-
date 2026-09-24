@@ -87,7 +87,6 @@ class SuccessPage extends StatelessWidget {
             ),
             const SizedBox(height: 24),
 
-            // Card Informasi Tanggal
             Container(
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
@@ -128,7 +127,6 @@ class SuccessPage extends StatelessWidget {
             ),
             const SizedBox(height: 32),
 
-            // Tombol Kembali ke Beranda
             SizedBox(
               width: double.infinity,
               child: ElevatedButton.icon(
